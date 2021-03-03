@@ -1,0 +1,622 @@
+<html><head><meta charset=utf-8><title>Acdemic Search</title><style type=text/css>/*Eric Meyer（CSS Reset)*/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, font, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: ”;
+    content: none;
+  }
+  :focus {
+    outline: 0;
+  }
+  ins {
+    text-decoration: none;
+  }
+  del {
+    text-decoration: line-through;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  /*End Eric Meyer（CSS Reset)*/
+  .top1 {
+    padding-top: 230px;
+  }
+  .logo1 {
+    margin: 0 auto;
+    height: 100px;
+    width:  1000px;
+  }
+  .lo1 {
+    color: rgb(100,200,200);
+    font-size: 45px;
+  }
+  .searchPart1 {
+    margin: 0 auto;
+    height: 100px;
+    width:  1000px;
+  }
+  .search1 {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width:  450px;
+    line-height: 50px;
+  }
+  .button1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(100,200,200);
+    cursor: pointer;
+  }
+  .header2 {
+    margin: 0 auto;
+    width: 1500px;
+    height: 66px; 
+    background: rgb(255,255,255);
+    border-bottom: 2px solid rgb(100,200,200);
+  }
+  .mars {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .mars2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .logo2 {
+    float: left;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 5px 20px 0 10px;
+  }
+  .a2 {
+    color: rgb(100,200,200);
+    text-decoration:none;
+    cursor: pointer;
+  }
+  .searchPart2 {
+    float: left;
+    margin-top: 15px;
+  }
+  .search2 {
+    height: 40px;
+    width:  450px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .button2 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(100,200,200);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .adb2 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: rgb(100,200,200);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .outter2 {
+    margin: 0 auto;
+    width: 1500px;
+    height: 66px; 
+  }
+  .container2 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .topside2 {
+    width: 100%;
+    border-bottom: 2px solid rgb(100,200,200);
+  }
+  .topleft2 {
+    margin-left: 20px;
+    width: 500px;
+  }
+  .topmid2 {
+    margin-left: 85px;
+    width: 500px;
+    display:inline-block;  
+  }
+  .topright2 {
+    margin-left: 400px;
+    width: 500px;
+    text-align: right;  
+  }
+  .order2 {
+    padding-top: 10px;
+    height: 30px;
+    width:  250px;
+    line-height: 60px;
+    border: 1px solid rgb(200,200,200);
+  }
+  .lo12 {
+    color: rgb(100,200,200);
+    font-size: 30px;
+  }
+  .lo22 {
+    color: rgb(100,200,200);
+    font-size: 18px;
+  }
+  .lo32 {
+    color: rgb(100,200,200);
+    font-size: 24px;
+  }
+  .leftside2 {
+    float: left;
+    width: 300px;
+    height: 100%;
+  }
+  .adelement2 {
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .adbutton2 {
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 80px;
+  }
+  .rightside2 {
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 320px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+  }
+  .listcontainer2 {   
+    text-align: left;
+  }
+  .title {
+    color: rgb(100,200,200);
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 22px;
+  }
+  .meta {
+    color: rgb(235, 195, 135);
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 22px;
+  }
+  .meta2 {
+    color: rgb(235, 195, 135);
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .abs {
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+  }
+  .apology {
+    color: rgb(150, 150, 150);
+    font-size: 20px;
+  }
+  .pages2 {
+    color: rgb(100,200,200);
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .pagesc2 {
+    color: rgb(235, 195, 135);
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .pn {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .au {
+    margin-right: 10px;
+  }
+  .container3 {
+    width: 100%;
+    margin-top: 0px;
+  }
+	.container23 {
+		margin:0 auto;
+		width: 80%;
+		border-bottom: 2px solid rgb(100,200,200);
+	}
+	.lo13 {
+	  color: rgb(100,200,200);
+	  font-size: 30px;
+	}
+	.lo23 {
+	  color: rgb(150, 150, 150);
+	  font-size: 18px;
+    line-height: 22px;
+	}
+	.lo33 {
+	  color: rgb(100,200,200);
+	  font-size: 24px;
+	}
+  .lo33a {
+	  color: rgb(235, 195, 135);
+	  font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+	}
+  .lo33b {
+	  color: rgb(150, 150, 150);
+	  font-size: 18px;
+	}
+  .lo33c {
+	  color: rgb(235, 195, 135);
+	  font-size: 18px;
+	}
+  .auc {
+    margin-top: 0px;
+    margin-right: 5px;
+  }</style><link rel=stylesheet href=https://unpkg.com/element-ui/lib/theme-chalk/index.css><script src=https://cdn.staticfile.org/vue/2.4.2/vue.min.js></script><script src=https://cdn.staticfile.org/axios/0.18.0/axios.min.js></script><script src=https://unpkg.com/element-ui/lib/index.js></script></head><body><div id=all><div v-if=p1><div class=top1></div><div class=logo1 align=center><h1 class=lo1>Academic Search</h1></div><div class=searchPart1 align=center><el-autocomplete class=search1 v-model=input :fetch-suggestions=querySearch placeholder="Please input here."></el-autocomplete><input class=button1 type=button value=Search @click=sub></div></div><div v-if=p2><div class=header2><div class=logo2><a class=a2 @click=b>Acdemic Search</a></div><div class=searchPart2 align=center><el-autocomplete class=search2 v-model=input :fetch-suggestions=querySearch placeholder="Please input here."></el-autocomplete><input class=button2 type=button value=Search @click=sub></div></div><div class=outter2><div class=container2><div class=topside2><div class=mars><span class=topleft2><font class=lo12>Search Results</font> </span><span class=topmid2><font class=lo22>(This search spends {{ time }} seconds.)</font> </span><span class=topright2><select class=order2 v-model=selected @change=or><option value=TFIDF>TFIDF</option><option value=BM25>BM25</option><option value=Citation>Citation</option><option value=Year1>Year(Increasing)</option><option value=Year2>Year(Decreasing)</option></select></span></div></div><div class=leftside2><div class=adelement2><font class=lo32>Year</font><br><div class=mars><input class=order2 type=text placeholder=eg.2015-2020 autocomplete=off value="" v-model=yvi></div></div><div class=adelement2><font class=lo32>Author</font><br><div class=mars><input class=order2 type=text placeholder="eg.Steve Anderson" autocomplete=off value="" v-model=avi></div></div><div class=adelement2><font class=lo32>Publication Venue</font><br><div class=mars><input class=order2 type=text placeholder="eg.ACM Party" autocomplete=off value="" v-model=pvi></div></div><div class=adbutton2><input class=adb2 type=button value=Filter @click=asub></div></div><div class=rightside2 v-if="flag==true"><div class=listcontainer2><div v-for="(art, i) in list"><div class=mars2><div class=mars><a class=title @click=f(i)>{{ art.title }}</a><br></div><div class=mars><span class=au v-for="(aut, j) in art.authors"><a class=meta @click=name(aut)>{{ aut }}</a> </span><span class=au v-show="art.venue!=''"><a class=meta2>{{ art.venue }}</a> </span><span class=au><a class=meta2>{{ art.year }}</a><br></span></div><div class=mars><a class=abs v-show="art.abstract!=''" align=justify>{{ art.abstract | ellipsis }}</a> <a class=abs v-show="art.abstract=='' && art.n_citation!=null">No Abstract Information.</a></div><div class=mars v-if="art.n_citation!=null"><a class=meta2>cited by {{ art.n_citation }}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class=meta @click=similar(art.id)>similar articles</a><br></div><p></p></div></div></div><br><a class=pages2 @click=gPage(page-1)>Previous</a> <span class=pn v-for="(index1, i) in plist"><a class=pages2 @click=gPage(index1)>{{ index1 }}</a> </span><a class=pagesc2>{{ page }}</a> <span class=pn v-for="(index2, i) in nlist"><a class=pages2 @click=gPage(index2)>{{ index2 }}</a> </span><a class=pages2 @click=gPage(page+1)>Next</a><p></p><br></div><div class=rightside2 v-if="flag==false"><div class=mars2><a class=apology>Sorry, no related result found.</a></div></div></div></div></div><div v-if=p3><div class=header2><div class=logo2><a class=a2 @click=b>Acdemic Search</a></div><div class=searchPart2 align=center><el-autocomplete class=search2 v-model=input :fetch-suggestions=querySearch placeholder="Please input here."></el-autocomplete><input class=button2 type=button value=Search @click=sub></div></div><div class=outter2><div class=container3><div class=container23 align=center><div class=mars><font class=lo13 v-if=p3>{{ list[detail].title }}</font></div></div><div class=container23><div class=mars><span class=au><font class=lo33>Author: </font></span><span class=au v-for="(aut, i) in list[detail].authors"><a class=lo33a @click=name(aut)>{{ aut }}</a></span></div></div><div class=container23><div class=mars><span class=au><font class=lo33>Publication Venue: </font></span><span class=au v-show="list[detail].venue!=''"><a class=lo33c>{{ list[detail].venue }}</a> </span><span class=au v-show="list[detail].venue==''"><a class=lo33b>No publication venue information.</a></span></div></div><div class=container23><div class=mars><span class=au><font class=lo33>Year: </font></span><span class=au v-if=p3><a class=lo33c>{{ list[detail].year }}</a></span></div></div><div class=container23><div class=mars><font class=lo33>Abstract:</font></div><div class=mars><a class=lo23 v-if="list[detail].abstract!=''" align=justify>&nbsp;&nbsp;{{ list[detail].abstract }} </a><a class=lo23 v-if="list[detail].abstract==''">No abstract information.</a></div></div><div class=container23><div class=mars><font class=lo33>Citation:</font></div><div class=mars><a class=lo23 v-if=p3 align=justify>{{ cite }}</a></div></div><div class=container23><div class=mars><font class=lo33>Reference List:</font></div><span v-for="(re, i) in refelist" v-if="refelist.length > 0"><div class=mars><a class=lo23 v-if=p3 align=justify>{{ re }}</a></div></span><span v-if="refelist.length == 0"><div class=mars><a class=lo23 v-if=p3>No reference information.</a></div></span></div></div><br><div align=center><input class=button2 type=button value=Back @click=b2></div><br></div></div></div><script type=text/javascript>new Vue({
+  el: "#all",
+  data: {
+    p1: true,
+    p2: false,
+    p3: false,
+    input: "",
+    query: "",
+    selected: "TFIDF",
+    yv: "",
+    av: "",
+    pv: "",
+    yvi: "",
+    avi: "",
+    pvi: "",
+    res: [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}],
+    list: [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}],
+    page: 1,
+    pageCount: 0,
+    plist: [],
+    nlist: [],
+    detail: 0,
+    cite: "",
+    refe: "",
+    refelist: [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}],
+    time: 0,
+    reql: [],
+    flag: true
+  },
+  methods: {
+    sub:function(){
+      this.p1 = false
+      this.p2 = true
+      this.p3 = false
+      this.query = this.input
+      this.input = ""
+      this.list = [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}]//还原初始态
+      this.page = 1
+      this.pageCount = 0
+      this.plist = []
+      this.nlist = []
+      this.time = 0
+      var stimer = new Date();
+      var st = stimer.getTime();
+      axios.get('/api/search', {params:{key: this.query}})
+      .then(response => {if(response.data.length>0){
+                          this.res = response.data;
+                          if(this.res.length >= 10){
+                            this.list = [];
+                            for(var i=0; i<10; i++) {
+                              this.list.push(this.res[i]);//显示前十个
+                            }
+                          }else{
+                            this.list = this.res;
+                          }
+                          this.pageCount = Math.ceil(this.res.length / 10);
+                          for(var i=this.page + 1; i<=Math.min(10 + this.page, this.pageCount); i++){
+                            this.nlist.push(i);
+                          }
+                          var etimer = new Date();
+                          this.time = (etimer.getTime()-st)/1000;
+                          this.time = this.time.toFixed(2);
+                          this.flag = true;
+                         }else{
+                          this.flag = false;
+                         }
+                        })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+
+    b:function(){
+      this.p1 = true
+      this.p2 = false
+      this.p3 = false
+    },
+
+    or:function(){
+      this.list = [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}]//还原初始态
+      this.page = 1
+      this.pageCount = 0
+      this.plist = []
+      this.nlist = []
+      this.time = 0
+      var stimer = new Date();
+      var st = stimer.getTime();
+      axios
+      .get('/api/test?format=json', {query: this.query, selected: this.selected})
+      .then(response => {if(response.data.length>0){
+                          this.res = response.data;
+                          if(this.res.length >= 10){
+                            this.list = [];
+                            for(var i=0; i<10; i++) {
+                              this.list.push(this.res[i]);//显示前十个
+                            }
+                          }else{
+                            this.list = this.res;
+                          }
+                          this.pageCount = Math.ceil(this.res.length / 10);
+                          for(var i=this.page + 1; i<=Math.min(10 + this.page, this.pageCount); i++){
+                            this.nlist.push(i);
+                          }
+                          var etimer = new Date();
+                          this.time = (etimer.getTime()-st)/1000;
+                          this.time = this.time.toFixed(2);
+                          this.flag = true;
+                         }else{
+                          this.flag = false;
+                         }
+                        })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+
+    asub:function(){
+      this.yv = this.yvi
+      this.yvi = ""
+      this.av = this.avi
+      this.avi = ""
+      this.pv = this.pvi
+      this.pvi = ""
+      this.list = [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}]//还原初始态
+      this.page = 1
+      this.pageCount = 0
+      this.plist = []
+      this.nlist = []
+      this.time = 0
+      var stimer = new Date();
+      var st = stimer.getTime();
+      axios
+      .get('/api/test?format=json', {query: this.query, yv: this.yv, av: this.av, pv: this.pv})
+      .then(response => {if(response.data.length>0){
+                          this.res = response.data;
+                          if(this.res.length >= 10){
+                            this.list = [];
+                            for(var i=0; i<10; i++) {
+                              this.list.push(this.res[i]);//显示前十个
+                            }
+                          }else{
+                            this.list = this.res;
+                          }
+                          this.pageCount = Math.ceil(this.res.length / 10);
+                          for(var i=this.page + 1; i<=Math.min(10 + this.page, this.pageCount); i++){
+                            this.nlist.push(i);
+                          }
+                          var etimer = new Date();
+                          this.time = (etimer.getTime()-st)/1000;
+                          this.time = this.time.toFixed(2);
+                          this.flag = true;
+                         }else{
+                          this.flag = false;
+                         }
+                        })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+
+    f:function(indep){
+      this.p1 = false
+      this.p2 = false
+      this.p3 = true
+      this.detail = indep
+      this.cite = ""//初始化
+      this.refe = "",
+      this.refelist = []
+      for(var i=0; i<this.list[this.detail].authors.length; i++){//citation
+        this.cite = this.cite+this.list[this.detail].authors[i]+", ";
+      }
+      this.cite = this.cite + this.list[this.detail].title+", ";
+      if(this.list[this.detail].venue!=""){
+        this.cite = this.cite + this.list[this.detail].venue+", ";
+      }
+      this.cite = this.cite + this.list[this.detail].year+".";
+
+      for(var i=0; i<this.list[this.detail].reference.length; i++){//reference list
+        this.refe = "";
+        for(var j=0; j<this.list[this.detail].reference[i].authors.length; j++){
+          this.refe = this.refe+this.list[this.detail].reference[i].authors[j]+", ";
+        }
+        this.refe = this.refe + this.list[this.detail].reference[i].title+", ";
+        if(this.list[this.detail].reference[i].venue!=""){
+          this.refe = this.refe + this.list[this.detail].reference[i].venue+", ";
+        }
+        this.refe = this.refe + this.list[this.detail].reference[i].year+", ";
+        this.refelist.push(this.refe)
+      }
+    },
+
+    gPage:function(para){
+      if(para > 0 && para <= this.pageCount){
+        this.list = [];//变换显示数组
+        this.plist = [];
+        this.nlist = [];
+        this.page = para;
+        for(var i=Math.max(1, this.page-10); i<this.page; i++){
+          this.plist.push(i)
+        }
+        for(var i=this.page + 1; i<=Math.min(10+this.page, this.pageCount); i++){
+          this.nlist.push(i);
+        }
+        for(var i=(this.page-1)*10; i<=Math.min((this.page-1)*10 + 9, this.res.length); i++){
+          this.list.push(this.res[i]);
+        }
+        document.documentElement.scrollTop = document.body.scrollTop = 0;
+      }
+    },
+
+    b2:function(){
+      this.p1 = false
+      this.p2 = true
+      this.p3 = false
+    },
+
+    name:function(au){
+      this.p1 = false
+      this.p2 = true
+      this.p3 = false
+      this.list = [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}]//还原初始态
+      this.page = 1
+      this.pageCount = 0
+      this.plist = []
+      this.nlist = []
+      this.time = 0
+      var stimer = new Date();
+      var st = stimer.getTime();
+      axios
+      .get('/api/test?format=json', {author: au})
+      .then(response => {if(response.data.length>0){
+                          this.res = response.data;
+                          if(this.res.length >= 10){
+                            this.list = [];
+                            for(var i=0; i<10; i++) { 
+                              this.list.push(this.res[i]);//显示前十个
+                            }
+                          }else{
+                            this.list = this.res;
+                          }
+                          this.pageCount = Math.ceil(this.res.length / 10);
+                          for(var i=this.page + 1; i<=Math.min(10 + this.page, this.pageCount); i++){
+                            this.nlist.push(i);
+                          }
+                          var etimer = new Date();
+                          this.time = (etimer.getTime()-st)/1000;
+                          this.time = this.time.toFixed(2);
+                          this.flag = true;
+                         }else{
+                          this.flag = false;
+                         }
+                        })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+
+    similar:function(id){
+      this.list = [{id:"", author:[], references:[], year:"", title:"", venue:"", abstract:"", n_citation:null}]//还原初始态
+      this.page = 1
+      this.pageCount = 0
+      this.plist = []
+      this.nlist = []
+      this.time = 0
+      var stimer = new Date();
+      var st = stimer.getTime();
+      axios
+      .get('/api/test', {artid: id})
+      .then(response => {if(response.data.length>0){
+                          this.res = response.data;
+                          if(this.res.length >= 10){
+                            this.list = [];
+                            for(var i=0; i<10; i++) {
+                              this.list.push(this.res[i]);//显示前十个
+                            }
+                          }else{
+                            this.list = this.res;
+                          }
+                          this.pageCount = Math.ceil(this.res.length / 10);
+                          for(var i=this.page + 1; i<=Math.min(10 + this.page, this.pageCount); i++){
+                            this.nlist.push(i);
+                          }
+                          var etimer = new Date();
+                          this.time = (etimer.getTime()-st)/1000;
+                          this.time = this.time.toFixed(2);
+                          this.flag = true;
+                         }else{
+                          this.flag = false;
+                         }
+                        })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+
+    querySearch:function(queryString, cb){
+      /*if(queryString!="" && queryString.charAt(queryString.length-1)==" "){
+        axios
+        .get('/api/test', {query: this.input})
+        .then(response => {
+          this.reql = response.data;
+          let results = this.reql;
+          cb(results);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+      }*/
+      
+      let results = [{"value":"HCI"}, {"value":"AI"}, {"value":"RIF"}]
+      cb(results);
+    }
+  },
+  filters: {
+    ellipsis (value) {
+      if (!value) return ''
+      if (value.length > 300) {
+        return value.slice(0,300) + '...'
+      }
+      return value
+    }
+  }
+})</script><script type=text/javascript src=/static/js/manifest.eeb2c031c0c552bd70ec.js></script><script type=text/javascript src=/static/js/app.9cec150b9000630c9f3d.js></script></body></html>
